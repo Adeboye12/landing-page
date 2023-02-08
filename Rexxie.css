@@ -1,0 +1,283 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    padding: 2.5rem;
+    background-color: hsl(0, 0%, 100%);
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo>button{
+    border-color: pink;
+    background-color: white;
+    border-radius: 1rem;
+    width: 15%;
+    font-weight: 700;
+    color: hsl(321, 100%, 78%);
+}
+.content{
+    padding: 2rem;
+    margin: 2rem;
+    text-align: center;
+    align-items: center;
+}
+.content>p:first-child{
+    font-size: 2.5rem;
+    margin-top: 5rem;
+    font-weight: bolder;
+}
+.content>p:nth-child(2){
+    margin-top: 1rem;
+    color: hsl(209, 29%, 65%);
+    margin-bottom: 1rem;
+}
+.content>button{
+    margin-top: 1rem;
+     color: white;
+    border: none;
+    border-radius: 2rem;
+    background-color: hsl(322, 100%, 66%); 
+    width: 30%;
+    padding: 1rem;
+    margin: 1rem;
+}
+.image{
+    width: 100%;
+    height: 100vh;
+}
+.image>img {
+    height: 100%;
+    width:  100%;
+    object-fit: contain;
+}
+.Rate{
+    padding: 8rem;
+    margin: 8rem;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.k>p:first-child{
+    font-size: 6rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    
+    
+}
+.k>p:nth-child(2){
+    font-size: 2rem;
+    font-weight: 400;
+    color:hsl(211, 23%, 63%); 
+}
+.ka>p:first-child{
+    font-size: 6rem;
+    font-weight: 700;
+    margin-bottom: 1rem
+}
+.ka>p:nth-child(2){
+    font-size: 2rem;
+    font-weight: 400;
+    color:hsl(211, 23%, 63%); 
+}
+.images{
+    background-image: url(./assest/bg-section-top-desktop-2.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 98.75vw;
+    height: 10vh;
+}
+.img{
+    background-image: url(./assest/bg-section-bottom-desktop-2.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 98.75vw;
+    height: 10vh;
+}
+.dia{
+    width: 100%;
+    background-color: hsl(207, 100%, 98%);
+    padding: 5rem;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.pic{
+    width: 100%;
+    height: 50vh;
+}
+.pic>img {
+    height: 100%;
+    width:  100%;
+    object-fit: contain;
+}
+.text>p:first-child{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem
+}
+.text>p:nth-child(2){
+    font-size: 16px;  
+    font-weight: 400; 
+    color: hsl(211, 23%, 63%);
+}
+.rex{
+    background-color: white;
+    padding: 5rem;
+    margin: 5rem;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.pic2{
+    width: 100%;
+    height: 50vh;
+}
+.pic2>img {
+    height: 100%;
+    width:  100%;
+    object-fit: contain;
+}
+.text2>p:first-child{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem
+
+}
+.text2>p:nth-child(2){
+    font-size: 16px;  
+    font-weight: 400; 
+    color: hsl(211, 23%, 63%);
+}
+.mt{
+    margin-top: 5rem;
+}
+.dave{
+    width: 100%;
+    background-color: hsl(207, 100%, 98%);
+    padding: 5rem;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.pic3{
+    width: 100%;
+    height: 50vh;
+}
+.pic3>img {
+    height: 100%;
+    width:  100%;
+    object-fit: contain;
+}
+.text3>p:first-child{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem
+
+}
+.text3>p:nth-child(2){
+    font-size: 16px;  
+    font-weight: 400; 
+    color: hsl(211, 23%, 63%);
+}
+.cta{
+    background-color: white;
+    width: 90%;
+    height: 35vh;
+    text-align: center;
+    padding: 3rem;
+    margin: 3rem;
+    margin-top: 10rem;
+}
+.cta>p{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: .2rem;
+}
+.cta>button{
+    margin: 2rem;
+    padding: 1.5rem;
+    background-color:hsl(322, 100%, 66%);
+    border-radius: 5rem;
+    width: 25%;
+    font-weight: 700;
+    border-radius: 2rem;
+    border: none;
+    color: white;
+}
+.clo{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 98.75vw;
+    height: 10vh;
+    background-image: url(./assest/bg-footer-top-desktop.svg);
+}
+.footer{
+    width: 100%;
+    height: 90vh;
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    display: flex;
+    padding: 5rem;
+    align-items:flex-start ;
+    justify-content: center;
+}
+
+.contact,.newsletter{
+    width: 50%;
+    margin-top: 5rem;
+}
+
+.phone,.mail{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.mail{
+    width: 47%;
+}
+.icons{
+    width: 100%;
+    margin-top: 5rem;
+}
+.icons>img{
+    width: 50px !important ;
+    height: 50px !important;
+}
+.new>p:first-child{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.form{
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+.form>form>input{
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 8px;
+    border: none;
+    width: 50%;
+}
+.form>form>button{
+    padding: 1rem;
+    margin: 1rem ;
+    width: 25%;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+}
