@@ -287,17 +287,18 @@
     .header{
         height: 60vh;
     }
-
-    .dia{
-        height: 20vh;
-    }
     .rex{
-        height: 20vh;
+        height: 32vh;
+        flex-direction: column;
     }.text2>p:first-child{
         font-size: 1rem;
     }
     .text2>p:nth-child(2){
         font-size: .5rem;
+    }
+    .dia{
+        height: 32vh;
+        flex-direction: column-reverse;
     }
     .text>p:first-child{
         font-size: 1rem;
@@ -306,7 +307,8 @@
         font-size: .5rem;
     }
     .dave{
-        height: 20vh;
+        height: 32vh;
+        flex-direction: column-reverse;
     }
     .text3>p:first-child{
         font-size: 1rem;
@@ -347,12 +349,6 @@
         margin: 1rem;
         width: 30vw;
     }
-    .footer{
-        font-size: .5rem;
-    }
-    .form{
-        display: flex;
-    }
     .cta{
         height: 35vh;
     }
@@ -364,5 +360,28 @@
         padding: 1rem;
         margin: 1rem;
         width: 30vw;
+    }
+    .footer{
+        font-size: .5rem;
+        flex-direction: column-reverse;
+    }
+    .newsletter{
+        width: 100%;
+    }
+    .form>form>button{
+        font-size: .5rem;
+        padding: 1rem;
+        margin: 1rem;
+        width: 35vw;
+        float: right;
+    }
+    .form>form>input{
+        font-size: .5rem;
+        padding: 1rem;
+        margin: 1rem;
+        width: 60vw;
+    }
+    .new>p:nth-child(2){
+        font-size: .7rem;
     }
   }
